@@ -1,0 +1,30 @@
+.dashboard-main{
+    padding: 1rem;
+}
+.dashboard-cards-container{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.dashboard-card-1 , .dashboard-card-2 , .dashboard-card-3{
+    height: 9rem;
+    width: 14rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+.dashboard-card-1{
+    background-color: rgb(255, 199, 94);
+}
+.dashboard-card-2{
+    background-color: rgb(148, 148, 255);
+}
+.dashboard-card-3{
+    background-color: rgb(90, 223, 90);
+}
+.dashboard-h3{
+    display: flex;
+    justify-content: space-between;
+}

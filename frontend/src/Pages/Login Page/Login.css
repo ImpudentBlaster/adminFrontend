@@ -1,0 +1,56 @@
+.logo{
+    height: 2.75rem;
+    width: 2.75rem;
+    background-color: #908e8e;
+    border-radius: 50%;
+}
+
+.login-main{
+    display: flex;
+justify-content: space-around;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.login-right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 40vw;
+gap: 1.5rem;
+background-color: rgb(239, 239, 239);
+padding: 2.5rem;
+border-radius: 1rem;
+}
+.login-main p{
+    margin: 0;
+}
+.login-input-1 , .login-input-2,.login-main input ,.login-main button{
+    width: 100%;
+    border-radius: 1rem;
+    border: 0;
+    padding: 0.5rem;
+}
+.login-main button{
+    color: white;
+    background-color: rgb(176, 173, 173);
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 1rem;
+}
+.login-main button:hover{
+    background-color: rgb(255, 177, 33);
+    color: black;
+}
+.login-input-1 , .login-input-2{
+    color: #666666;
+}
+.login-right span{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.login-left img{
+    height: 100%;
+    object-fit: cover;
+}
